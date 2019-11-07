@@ -63,5 +63,11 @@ Project Contents:
     - <a href='#clean weather 2'>6.1 Dummying Variables</a>   
     - <a href='#clean train 2'>6.2 Cleaning Train and Test Data</a>   
     - <a href='#clean spray 2'>6.3 Cleaning Spray Data</a>   
-    
+ 
+ - <a href='#Model 2'>7. Baseline Model, and Generalized Additive Models</a>
+ - <a href='#clean weather 2'>8. CART Models</a>   
+ - <a href='#clean train 2'>9. Unsupervised Clustering with XGBoost</a>   
+ 
+ - <a href='#clean spray 2'>10. Conclusions</a>   
   
+Overall findings were that the GAM performed the best AUC/ROC wise, with a Kaggle Score of 0.8, but the CART models tend to perform better in terms of recall.

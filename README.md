@@ -12,6 +12,8 @@ Firstly, we aim to build a model capable of predicting the outbreak of West Nile
 
 By predicting the appearance of WNV-infected mosquitos, our analyses should lend itself to further studies on the interaction between infected mosquitos and human/environmental variables. Furthermore, through predicting the outbreak of infected mosquitos in specific geographic regions, we would be able to support a local government's attempts to control mosquito populations via spraying efforts by pointing them towards high risk areas, whilst lowering costs associated with wide scale mosquito spraying.
 
+Secondly, we need to be able to evaluate the feature importances of our models so as to be able to provide prescriptive advice to states afflicted by WNV. Whilst running complicated black box models may have strong predictive powers, they are less helpful in helping local governments understand what factors cause WNV and what they can do to mitigate them.
+
 ### 1.3 Modelling Approach and Strategy
 The presence of WNV is a function of three things:
 > 1. <b>Mosquito activity</b>: Mosquitos are more active during hot and humid periods. This increased activity leads to increased transmission of the virus between bird, mosquito, and human, as feeding frequency increases. We will, therefore, build several weather features into our model. This includes point humidity, temperature, precipation, as well as rolling averages of these factors. Length of day (i.e. period between sunrise and sundown) is also hypothesized to be a predictor of mosquito activity, due to the increased activity periods.
